@@ -47,7 +47,7 @@ export default function ArticleDetail(props) {
               post?.type &&
               !post?.type !== 'Page' &&
               post?.pageCover && (
-                <div>
+                <div><br /><br />
                 </div>
               )}
 
