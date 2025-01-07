@@ -1,5 +1,5 @@
 const CONFIG = {
-  NEXT_HOME_BANNER: false, // 首页是否显示大图及标语 [true,false]
+  NEXT_HOME_BANNER: true, // 首页是否显示大图及标语 [true,false]
   NEXT_HOME_BANNER_STRINGS: [
     'Hi，我是一个程序员',
     'Hi，我是一个打工人',
@@ -36,7 +36,7 @@ const CONFIG = {
   NEXT_WIDGET_DARK_MODE: true, // 显示日间/夜间模式切换
   NEXT_WIDGET_TOC: true, // 移动端显示悬浮目录
 
-  NEXT_ARTICLE_RELATE_POSTS: false, // 相关文章推荐
+  NEXT_ARTICLE_RELATE_POSTS: true, // 相关文章推荐
   NEXT_ARTICLE_COPYRIGHT: false, // 文章版权声明
   NEXT_ARTICLE_INFO: false // 显示文章信息
 }
