@@ -79,13 +79,13 @@ const BlogPostCard = ({ post, index, showSummary }) => {
             </div>
           </div>
 
-          {(!showPreview || showSummary) && !post.results && (
-            <p
-              {...aosProps}
-              className='mt-4 mb-12 text-gray-700 dark:text-gray-300 text-sm font-light leading-7'>
-              {post.summary}
-            </p>
-          )}
+          // {(!showPreview || showSummary) && !post.results && (
+          //   <p
+          //     {...aosProps}
+          //     className='mt-4 mb-12 text-gray-700 dark:text-gray-300 text-sm font-light leading-7'>
+          //     {post.summary}
+          //   </p>
+          // )}
 
           {/* 搜索结果 */}
           {post.results && (
