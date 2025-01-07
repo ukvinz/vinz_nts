@@ -39,7 +39,7 @@ export default function ArticleDetail(props) {
       <div
         itemScope
         itemType='https://schema.org/Movie'
-        className='overflow-y-hidden py-10 px-4 lg:pt-24 md:px-24  dark:border-gray-700 bg-white dark:bg-hexo-black-gray'>
+        className='overflow-y-hidden py-10 px-8 lg:pt-24 md:px-24  dark:border-gray-700 bg-white dark:bg-hexo-black-gray'>
         {showArticleInfo && (
           <header {...aosProps}>
             {/* 头图 */}
@@ -47,7 +47,7 @@ export default function ArticleDetail(props) {
               post?.type &&
               !post?.type !== 'Page' &&
               post?.pageCover && (
-                <div><br /><br />
+                <div>
                 </div>
               )}
 
@@ -86,6 +86,7 @@ export default function ArticleDetail(props) {
         )}
 
         {/* Notion内容主体 */}
+        <br /><br />
         <article id='article-wrapper' className='mx-auto'>
           <WWAds className='w-full' orientation='horizontal' />
           {post && <NotionPage post={post} />}
