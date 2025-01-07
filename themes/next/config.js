@@ -38,7 +38,7 @@ const CONFIG = {
 
   NEXT_ARTICLE_RELATE_POSTS: true, // 相关文章推荐
   NEXT_ARTICLE_COPYRIGHT: false, // 文章版权声明
-  NEXT_ARTICLE_INFO: false // 显示文章信息
+  NEXT_ARTICLE_INFO: true // 显示文章信息
 }
 
 export default CONFIG
